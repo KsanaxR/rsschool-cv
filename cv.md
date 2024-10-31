@@ -20,3 +20,8 @@ I am a third year undergraduate student at BSTU and I am majoring in IT Software
 3. *Patience*
 4. *Resourcefulness*
 
+### My skills:
+- **Languages: SQL,C,C++,C#,Java,Assembler,JS,TS(React,HTML(Sass,CSS,XML,DOM)).**
+- **Development environment, version control systems, web services: Vsc, Vs, Idea,Git, Github,Figma.**
+- **Optional: Matlab, Multisim.**
+

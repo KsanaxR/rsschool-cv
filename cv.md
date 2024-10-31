@@ -55,3 +55,11 @@ int main()
 
 ```
 
+An example of a project with HTML(Sass,CSS,XML,DOM) , JS can be found at the link:<https://github.com/KsanaxR/Course_project_KYAR_1course_2sem.git>
+
+*Education:*
+1. **Incomplete university degree in information technology software, year of graduation 2026.**
+2. **Courses from EPAM: DevOps Essentials, Version Control with Git, Computer Science Basics.**
+
+**English Language :**
+Taught throughout the school, has a certificate with a proven A2 level (2018).The vocabulary is about 6000 words , and now according to the test results , the level is B1. I can follow any material in English with 85% comprehension.

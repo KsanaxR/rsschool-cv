@@ -19,5 +19,63 @@
             </ul>
         </nav>
     </header>
+    <main>
+        <h1>Ksenia Radkevich</h1>
+        <img src="4655627a84b1a4ae4b97770c730953de.png" alt="myfoto">
+        <h2 id="contacts">Contacts for communication:</h2>
+         <ul>
+                <li>Email: kseniaradkevic393@gmail.com</li>
+                <li>Telegram: t.me/@willsnareoursouls</li>
+                <li>Mail: ksenia.rad.00@mail.ru</li>
+            </ul>
+           <i> Belarus, Minsk</i>
+        <h2 id="about">Brief information about me</h2>
+        <p>I am a first year undergraduate student at BSTU and I am majoring in IT Software Engineering. Before I entered the university, my goal was to become a full-stack developer, but after the first academic year, I realised that the knowledge that the university was going to give me was not going to be enough for me to achieve my goal.
+        </p>
+           <p><b>Why do I need this course? I joined the course to gain more practical skills and to get closer to how developers actually work so that I can integrate better into the working environment after the course as I currently have no professional experience.</b>
+        </p>
+        <h2 id="strengths">My strengths:</h2>
+        <ul>
+            <li>Communication skills</li>
+            <li>Perseverance</li>
+            <li>Patience</li>
+            <li>Resourcefulness</li>
+        </ul>
+        <h2 id="skills">My skills:</h2>
+        <ul>
+            <li>Languages: C,C++,HTML(Sass,CSS,XML,DOM) , some JS.</li>
+            <li>Development environment, version control systems, web services: Vsc, Vs, Git, Github,Figma.</li>
+            <li>Optional: Matlab, Multisim.</li>
+        </ul>
+        <h2 id="code">Example c++ code:</h2>
+        <div class="prokrut"><pre><code>
+int main()
+{
+    setlocale(LC_ALL, "Rus");
+    vector&lt;int&gt; v{ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+    int target1 = 3;
+    int num_items1 = count(v.begin(), v.end(), target1);
+    cout &lt;&lt; "Число: " &lt;&lt; target1 &lt;&lt; " количество: " &lt;&lt; num_items1 &lt;&lt; endl;
+    int num_items3 = count_if(v.begin(), v.end(), [](int i)
+    {return i % 3 == 0; });
+    cout &lt;&lt; "Количество элементов, кратных 3: " &lt;&lt; num_items3 &lt;&lt; endl &lt;&lt; endl;
+     cout &lt;&lt; "Лямбда, захват переменных" &lt;&lt; endl;
+     for (auto i : v) [i](){ if (i % 3 == 0) cout &lt;&lt; i &lt;&lt; " ";}();
+    cout &lt;&lt; "\nЛямбда с параметрами" &lt;&lt; endl;
+    for (auto i : v) [](auto i){if (i % 3 == 0) cout &lt;&lt; i &lt;&lt; " ";}(i);
+    cout &lt;&lt; "\nЛямбда без параметров" &lt;&lt; endl;
+    for (auto i : v) [i]{if (i % 3 == 0) cout &lt;&lt; i &lt;&lt; " ";}();
+    cout &lt;&lt; "\nДополнительно: " &lt;&lt; endl;
+    auto result = [](string str1, string str2){return str1 + str2;}
+    ("Hello, ", "World");
+    cout &lt;&lt; result &lt;&lt; endl;
+    return 0;
+}</code></pre></div>
+<div class="prokrut"><p>An example of a project with HTML(Sass,CSS,XML,DOM) , JS can be found at the link:
+        https://github.com/KsanaxR/Course_project_KYAR_1course_2sem.git</p></div>
+        <h2 id="education">Education:</h2>
+        <p>Incomplete university degree in information technology software, year of graduation 2026.Courses from EPAM: DevOps Essentials, Version Control with Git, Computer Science Basics.</p>
+            <p><i><b>English Language : Taught throughout the school, has a certificate with a proven A2 level (2018).The vocabulary is about 6000 words , and now according to the test results , the level is B1. I can follow any material in English with 85% comprehension.</b></i></p>
+    </main>
 </body>
 </html>
